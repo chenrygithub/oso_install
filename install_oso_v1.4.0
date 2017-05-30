@@ -1,0 +1,5 @@
+yum install epel-release
+yum clean all
+yum install -y docker wget git ansible python-cryptography pyOpenSSL.86_64
+git clone https://github.com/openshift/openshift-ansible
+git clone https://github.com/gshipley/installcentos
